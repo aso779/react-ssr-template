@@ -7,10 +7,13 @@ const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
     .BundleAnalyzerPlugin;
 
 const config = {
+    watch: true,
+
     plugins: [
-        // new BundleAnalyzerPlugin({
-        //   analyzerPort: 9911
-        // })
+        new BundleAnalyzerPlugin({
+            analyzerHost: '0.0.0.0',
+            analyzerPort: 9911
+        })
     ],
 
     target: "web",

@@ -6,6 +6,8 @@ const baseConfig = require("./webpack.base").createTarget({
 });
 
 const config = {
+    watch: true,
+
     target: "node",
 
     entry: "./src/server/index.js",

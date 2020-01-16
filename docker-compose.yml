@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+
+  front:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.dev
+    ports:
+      - 3000:3000
+      - 9911:9911
+    volumes:
+      - ~/.npm:/root/.npm:delegated
+      - ./:/home/app

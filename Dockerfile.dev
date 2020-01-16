@@ -1,0 +1,10 @@
+FROM node:8-alpine
+
+WORKDIR /home/app
+
+ENV PATH /app/node_modules/.bin:$PATH
+
+ENV NODE_ENV=development
+
+CMD npm install --silent && \
+    npm run dev
