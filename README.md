@@ -1,7 +1,7 @@
 # react-ssr-template
 ## Requirements
-1. [Docker] (https://docs.docker.com/install/)
-1. [Docker Compose] (https://docs.docker.com/compose/install/)
+1. [Docker](https://docs.docker.com/install/)
+1. [Docker Compose](https://docs.docker.com/compose/install/)
 ## Get started
 1. `mkdir -p /path/to/app`
 1. `cd /path/to/app`
